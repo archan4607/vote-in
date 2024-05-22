@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "votein",
+			"path": "."
+		},
+		{
+			"name": "htdocs",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "votein",
+		"liveServer.settings.proxy": {
+			"enable": true,
+			"proxyUri": "http://127.0.0.1:5500/"
+		}
+	}
+}

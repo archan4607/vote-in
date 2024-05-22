@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "votein",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "funnyfails",
+		"liveServer.settings.port": 5501
+	}
+}

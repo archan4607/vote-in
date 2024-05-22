@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script> 
+            $(document).ready(function(){
+            //   on hover increse size of image when we left mouse it will be normal
+                $("img").hover(function(){
+                    $(this).animate({height: '600px', width: '600px'});
+                }, function(){
+                    $(this).animate({height: '500px', width: '500px'});
+                });
+            });
+        </script> 
+        <style>
+            body{
+
+            }
+            .backg{
+                background-color: black;
+                height: 100px;
+                width: 100px;
+                
+        }
+        </style>
+    </head>
+    <body>
+        <div class="backg"></div>
+        <img src="./Purple.jpg" height="500px" width="500px" alt="">
+    </body>
+</html>
